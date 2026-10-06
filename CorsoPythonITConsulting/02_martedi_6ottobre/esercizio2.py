@@ -26,16 +26,20 @@ if scelta == "aggiungi" : #se sceglie la prima scelta aggiungi, entra in questo 
     print(lista) 
 elif scelta == "rimuovi": #questo blocco di docie invece ti permettere di rimuovere il numero in questo caso
     print("scegli cosa rimuovere fra: ", lista)
-    scelta2 = input("scegli un numero")
+    scelta2 = input("scegli un numero: ")
     lista.remove(scelta2)
     
     print(lista)  
 elif scelta == "modifica": #questo blocco di codice ti permette di modificare nella posizione che vogliamo una parola scritta dall'input, nella posizioen che scegliamo dall'input
     print("scegli quale posizione modificare da 0 con limite a", len(lista)-1 )
-    scelta2 = int(input("scegli una posizione"))
-    scelta3 = input("scegli una parola da aggiungere")
+    scelta2 = int(input("scegli una posizione: "))
+    scelta3 = input("scegli una parola da aggiungere: ")
     lista[scelta2] = scelta3
     
     print(lista)   
 else: #nessuna delle scelte precedenti è giusta, quindi stampa scelta sbagliata
     print("Scelta sbagliata")
+    
+    
+    
+    
