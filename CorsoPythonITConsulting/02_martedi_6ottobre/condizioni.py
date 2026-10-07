@@ -22,7 +22,7 @@ else:
     print("il numero è zero")
     
     
-numero = 10
+numero = 10 #proviamo un if nell'if
 if numero > 0:
     print ("il mumero è positivo")
     
@@ -31,4 +31,7 @@ if numero > 0:
     
 else: 
     print("il numero è zero")
+    
+    
+
     

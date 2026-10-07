@@ -27,3 +27,5 @@ numeri.sort() #ordina i numeri
 print(numeri)
 
 
+
+
