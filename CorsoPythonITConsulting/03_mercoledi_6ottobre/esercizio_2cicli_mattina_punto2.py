@@ -7,6 +7,8 @@ numero = int(input("Scrivi un numero: "))
 for i in range(0, numero + 1, 1):
     print(i) """
     
+   #anzichè partire sempre da numero, mi dichiaro direttamente ripeti si
+    
 ripeti = "si"
     
 while ripeti == "si":

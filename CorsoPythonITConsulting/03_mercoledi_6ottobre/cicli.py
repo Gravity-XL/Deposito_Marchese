@@ -23,6 +23,7 @@ while conteggio < 5:
     for numero in limite:
         print(numero)
         
-   
+    for x in limite: 
+        print(x)
         
         
