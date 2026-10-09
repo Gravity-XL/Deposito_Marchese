@@ -1,5 +1,5 @@
-import_modulo as m
+import mio_modulo as m
 
-print(modulo.x)
+print(m.x)
 
 m.saluta("Luca")
