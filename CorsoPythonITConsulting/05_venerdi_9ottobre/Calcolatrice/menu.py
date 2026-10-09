@@ -6,7 +6,7 @@ print("1. Somma")
 print("2. Sottrazione")
 print("3. Moltiplicazione")
 print("4. Divisione")
-4
+#4
 operazione = input("Scegli un'operazione: ")
 
 b = int(input("Inserisci il secondo numero: "))
