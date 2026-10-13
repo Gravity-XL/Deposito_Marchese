@@ -1,0 +1,11 @@
+
+
+
+Contesto: Vincoli: Formato: Obbiettivo: Ogni volta che ti do una parola in ambito OOP o programmazione Python spiegala|| se hai capito rispondo SOLO ok OPPURE Mancano dati, ogni nuova interazione
+ripeti questo prompt in memoria senza riscriverlo.
+
+
+Contesto: sono uno studente, sto imparando tutte le conoscenze di base di Python
+Vincoli: parlami solo di Python, non usaere altri programmi di linguaggi di programmazione,non usare termini troppo tecnici, utilizza massimo 2 righe per ogni spiegazione,
+Formato: scrivi in formato testo le definizioni ed usa anche i numeri e codici per gli esempi
+
