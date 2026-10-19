@@ -77,4 +77,6 @@ impiegato2 = ImpiegatoAProvvigione("Dario", "Marchese", 3000, 500)
 # Usiamo la stessa funzione per entrambi gli impiegati
 stampa_impiegato(impiegato1)
 stampa_impiegato(impiegato2)
-        
+
+
+       

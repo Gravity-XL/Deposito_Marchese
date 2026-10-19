@@ -9,3 +9,5 @@ Contesto: sono uno studente, sto imparando tutte le conoscenze di base di Python
 Vincoli: parlami solo di Python, non usaere altri programmi di linguaggi di programmazione,non usare termini troppo tecnici, utilizza massimo 2 righe per ogni spiegazione,
 Formato: scrivi in formato testo le definizioni ed usa anche i numeri e codici per gli esempi
 
+### i token sono circa 1 milione, la risposta ne sfrutta 1/10 cercando di risparmiarli grazie a queste condizioni
+

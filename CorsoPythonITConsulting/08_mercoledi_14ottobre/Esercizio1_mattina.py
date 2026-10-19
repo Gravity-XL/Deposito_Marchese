@@ -1,5 +1,11 @@
 
 
+#ESERCIZIO DA COMPLETARE CON CALMA
+
+#si manifesta in modificatori, protetti e privati doppio trattino, metodi getter e setter (metodi normali)
+#dichiarate o meno nell'init non cambia nulla o lasciarle vuote
+#get 
+
 class ContoBancario:
 
     def __init__(self,titolare,saldo):
@@ -24,5 +30,4 @@ class ContoBancario:
 
     def set_saldo(self):
         pass
-    
     

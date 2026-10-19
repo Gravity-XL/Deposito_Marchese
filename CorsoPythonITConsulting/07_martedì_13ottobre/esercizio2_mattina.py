@@ -26,4 +26,22 @@ class Cane(Animale):
         print(f"{self.nome} sta abbaiando.")
 
         
-        
+ # CREAZIONE DEGLI OGGETTI
+
+leone1 = Leone("Simba", 5)
+giraffa1 = Giraffa("Melman", 8)
+cane1 = Cane("Fido", 3)
+
+
+# CHIAMATA DEI METODI SPECIFICI
+
+leone1.caccia()
+giraffa1.mangia()
+cane1.abbaia()
+
+
+# CHIAMATA DEL METODO EREDITATO
+
+leone1.fai_suono()
+giraffa1.fai_suono()
+cane1.fai_suono()       

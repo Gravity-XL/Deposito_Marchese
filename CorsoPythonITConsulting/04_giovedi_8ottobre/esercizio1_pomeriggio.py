@@ -9,7 +9,7 @@ import random
 
 lista = [random.randint(1, n) for _ in range(n)] #lista già con il random, mi sono aiutato con internet e l'underscore dovrebbe esserebe essere un valore per continuare senza assegnare , DA RICONTROLLARE
 print (lista)
-
+#forse avrei fatto una funzione, non mi convince questo punto
 
 #punto3
 

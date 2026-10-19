@@ -1,0 +1,111 @@
+
+
+DOMANDA NUMERO 2:
+
+Cos'è Python? quali caratteristiche ha? spiegale.
+
+Python è un linguaggio di programmazione creato nel 1991. Si dice di alto livello, interpretato, dinamico e orientato agli oggetti. La sua filosofia si basa sulla leggibilità del codice e sulla facilità di apprendimento. Si utilizza per creare applicazioni, siti web, elaborazione dati e nell’ultimo periodo ormai è molto usato per utilizzare progetti di intelligenza artificiale e il machine learning. Si dice di alto livello perché è abbastanza vicino al modo in cui ragioniamo, tende ad allonarsi dal linguaggio macchina. Interpretato perché tra il codice scritto da noi e l’esecuzione interviene un interprete che permette di eseguire il codice rendendo lo sviluppo pratico, a discapito della velocità quando abbiamo una grandissima quantità di dati.
+Inoltre si dice dinamico perché il tipo è associato all’oggetto en on deve essere dichiarato quando creiamo una variabile.  esempio:     x = 3
+		     x =  luca 
+
+Quindi in questo esempio  prima è un intero e dopo una stringa.
+
+E’ un linguaggio orientato agli oggetti e i 4 principi fondamentali sono: l’ereditarietà, cioè ereditare metodi da una classe all’altra.
+Incapsulamento: dati e oggetti vengono raggruppati in una classe ad esempio.
+Polimorfismo, cioè gli oggetti possono rispondere allo stesso metodo in modi diversi.
+L’astrazione invece permette di rappresentare qualcosa nascondendo i dettagli implementativi.
+
+DOMANDA NUMERO 3:
+
+Cos'è una variabile? Di che macro-tipi ne abbiamo? Spiegali
+
+Una variabile è un “contenitore” che utilizziamo per fare riferimento ad un valore all’interno del programma.
+Ha 3 elementi fondamentali che sono il nome della variabile, l’operatore di assegnazione, cioè il simbolo uguale che assegna quel nome al valore, e appunto il valore assegnato.
+
+Esempio
+
+nome = "Luca"
+
+Il nome non deve avere spazi. Ma può avere l’underscore per separare la parola e dei numeri, può iniziare con una lettera o con un underscore ed è fortemente consigliato iniziare con lettera maiuscola per non scambiarlo con i nomi degli oggetti o delle classi che comunemente vengono scritti con la lettera maiuscola.
+
+Come tipi di dato abbiamo i primitivi e i non primitivi.
+I primitivi ad esempio int, float, bool, str mentre non primitivi ad esempio list.
+
+DOMANDA N4: Cos'è il controllo del flusso? quali famiglie lo compongono? spiegale
+
+Il controllo del flusso ti permette di gestire l’esecuzione di un programma, detta diciamo le istruzioni da eseguire nell’ordine che scegliamo noi e quante volte diciamo noi, chiaramente a patto che rispettano le condizioni che gli diamo.
+
+Si dividono in controllori esclusivi e ripetitivi.
+
+L’if ad esempio è uno dei controllori esclusivi, permette di eseguire un blocco di codice soltanto se la condizione è vera, se quella condizione non è più vera il programma lo salta.
+If else permette invece di specificare un blocco alternativo quando if è falso. Come se indicasse “altrimenti”.
+
+Un esempio banale è 
+
+eta = 16
+
+If età >= di 18: 	print(“sei maggiorenne”)
+else:
+	print(“sei minorenne”)
+
+Quindi o viene eseguito il primo blocco o il secondo.
+
+Elif permette semplicemente di verificare un’altra condizione se quella dell’if non è vera e possiamo utilizzare più elif.
+
+Il match permette di confrontare invece un valore con diversi casi inoltre aggiungendo un caso finale nel caso in cui tutti i precedenti non corrispondono alla nostra scelta. 
+
+Invece poi abbiamo i controllori ripetitivi chiamati anche cicli che permettono di eseguire un blocco di codice fino a quanto quella condizione è vera, tipo il while, e la condizione viene ricontrollata ad ogni iterazione
+
+numero = 1
+while numero <= 5:
+print(numero)
+numero += 1
+Risultato:
+1
+2
+3
+4
+5
+
+Questo esempio ci fa capire che noi scegliamo uno come valore, entra nel while, 1 è minore di 5, ok allora stampo il numero. Numero + 1 indica che prendiamo il numero assegnato appunto a “numero” in questo caso 1 e aggiungiamo un valore, il ciclo si ripete e stampa ancora. Stamperia alla condizione indicata, cioè appunto <= di 5.
+
+Il while inoltre utilizza una condizione che può essere valutata come vera o falsa, molto più semplice del precedente, semplicemente la condizione true/false.
+
+Il ciclo for ci permette di iterare gli elementi di una sequenza eseguendo un blocco di codice per ogni elemento,
+
+numeri = [1,2,3,4]
+
+for numero in numeri
+	print(numero)
+
+Stampa tutti gli elementi della lista fino al termine
+
+La funzione range comoda per generare numeri fino a che la condizione che gli diamo “passa”
+
+for I in range (5):
+	print(i)
+Risultato: 0
+1
+2
+3
+4
+
+Genera valori da 0 a 4, 5 escuso chiaramente si parte da 0 a contare gli indici.
+
+DOMANDA 5: COS’è UNA FUNZIONE, DI CHE TIPI NE ABBIAMO, SPIEGALE:  Le funzioni sono blocchi di codice autonomi che svolgono un loro compito specifico e possiamo riutilizzarle in più parti del programma, sono alla base della modulari e possono essere chiamate ogni volta che serve.  si definisce con def. 
+
+esempio:		def saluta():
+	print(“Ciao!”)
+
+Quindi def indica che stiamo definendo una funzione.
+Saluta è il nome della funzione, dentro le parentesi mettiamo i parametri e quindi noi possiamo richiamarla per eseguirla.
+
+
+Una delle differenze importanti da ricordare è che print ci servirà solo per visualizzare diciamo l’informazione sullo schermo, mentre return viene assegnato alla variabile risultato e può essere riutilizzato in altre operazioni.
+
+DOMANDA 6, versionamento, GitHub e git desktop
+
+Il versionamento è un modo di tenere traccia di tutte le modifiche che facciamo. Esempio: scrivo un programma su Python ma ancora non l’ho completato, ogni volta che modifico il programma posso committarlo nuovamente per inoltrare il mio codice in totale comodità, inoltre posso tornare anche ad una versione precedente di salvataggio quindi se sbaglio qualcosa posso tranquillamente tornare indietro.  Git è appunto il programma che ti permette di gestire tutto questo, e git hub è una piattaforma online dove noi possiamo anche caricare e consegnare tutti i progetti, accessibili da un altro computer come se fosse un cloud, inoltre posso condividerlo con un team che magari lavora con me o tenerlo come portfolio per cercare lavoro e mostrare le mie competenze tramite i progetti che ho realizzato.
+
+Git desktop è l’applicazione che ci consente di usare git attraverso un’interfaccia comoda che ha comandi e menu per caricare velocemente i nostri progetti.
+

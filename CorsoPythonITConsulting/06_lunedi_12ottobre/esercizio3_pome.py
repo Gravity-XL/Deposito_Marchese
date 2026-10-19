@@ -23,7 +23,8 @@ while scelta != "end" :
     pass
 
 
-#####_
+#_____ 
+
 
 class ContoCorrente:
 

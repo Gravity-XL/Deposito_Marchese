@@ -22,6 +22,7 @@ def stampa():
 
 #a questo punto ho usato posizione anche di qua, il pop invece lo avevo completamente rimosso, l'ho cercato su internet
 #in realtà ho provato remove ma non funzionava 
+
 def elimina():
     print(lista)
     posizione = int(input("Quale posizione vuoi eliminare? "))
