@@ -143,3 +143,11 @@ def media_matrice(matrice):
 determinante = np.linalg.det(matrice) #su una matrice di 2x2, 4x4 ecc 
 #quindi quadrata il determinante è il risultato della moltiplicazione dei diagonali
 #e sottrarli 
+
+#esempio di determinante DA AGGIUNGERE FILE UTILITY
+
+# 2   3
+
+# 1   4
+
+# RISULTATO (2 X 4) - (3 X 1) = 5

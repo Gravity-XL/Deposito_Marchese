@@ -1,0 +1,11 @@
+nome,razza,livello_forza,eta,trasformazione,guerrieri speciali,guerrieri_giovani
+Goku,Saiyan,9500,43,Super Saiyan,True,False
+Vegeta,Saiyan,9000,48,Super Saiyan Blue,True,False
+Gohan,Saiyan/umano,8500,26,Beast,True,True
+Piccolo,Namecciano,7000,27,Orange Piccolo,True,True
+Crilin,Umano,1800,44,Nessuna,False,False
+Freezer,Razza di Freezer,9800,70,Golden Freezer,True,False
+Trunks,Saiyan/umano,6500,25,Super Saiyan,False,True
+Bulma,Umana,100,47,Nessuna,False,False
+Androide 18,Androide,6000,35,Nessuna,False,True
+Majin Bu,Majin,8000,500,Forma pura,True,False
