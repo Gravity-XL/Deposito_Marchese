@@ -4,7 +4,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df_ascolti = pd.read_csv("CorsoPythonITConsulting/14_giovedi_22ottobre/matpotlib/ascolti_artist.csv")
+df_monitoraggio_acqua = pd.read_csv("CorsoPythonITConsulting/14_giovedi_22ottobre/matpotlib/monitoraggio_qualita_acqua.csv")
 
 
 #TOTALE DEGLI ASCOLTI STAMPATI
