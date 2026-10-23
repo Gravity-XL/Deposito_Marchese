@@ -1,0 +1,64 @@
+RELAZIONE SULL'ANALISI DEI DATI DELLE CARAMELLE
+
+Dopo aver caricato e analizzato i due file CSV, ho iniziato a lavorare sui dati 
+con l'obiettivo di ottenere informazioni utili sia sulla qualità degli archivi 
+sia sull'andamento commerciale dei prodotti.
+In una prima fase ho controllato la struttura dei due DataFrame, le dimensioni, i tipi di dato
+i valori mancanti e gli eventuali duplicati. 
+
+Dai controlli effettuati, i file originali non presentavano valori nulli né righe duplicate complete. 
+ho inoltre osservato le statistiche descrittive, utili per avere una prima 
+visione generale dei dati e individuare eventuali valori da approfondire.
+
+Successivamente ho unito i due archivi utilizzando il nome della caramella come chiave, attraverso il merge
+Questa scelta ci ha permesso di mantenere tutti i prodotti presenti in entrambi i file
+anche quando mancavano informazioni da una delle due parti. 
+
+Dal confronto sono risultate 80 caramelle presenti in entrambi gli archivi
+5 presenti soltanto nel primo e 3 soltanto nel secondo.
+Tra gli elementi presenti esclusivamente nel secondo file troviamo Candy Test A, Candy Test B e Candy Test C. 
+ho deciso di conservarli, senza considerarli automaticamente errori, 
+perchè non ho elementi sufficienti per stabilire se siano dati di 
+prova o prodotti effettivamente validi. (Ho preferito mantenere questi dati, ma inserirli in relazione per tenerne conto)
+
+Allo stesso modo, ho mantenuto le cinque caramelle presenti 
+soltanto nel primo archivio, evidenziando la necessità di verificare queste 
+differenze prima di utilizzare i dati per decisioni aziendali. 
+
+I valori mancanti comparsi dopo l'unione sono infatti dovuti alla mancata corrispondenza tra i nomi 
+e non necessariamente a errori nei file originali.
+Terminata questa fase, ho pensato all'analisi commerciale.
+
+Attraverso l'ordinamento dei dati ho individuato le dieci caramelle con il 
+maggior numero di unità vendute e quelle con i risultati più bassi. 
+ho effettuato lo stesso procedimento per le valutazioni dei clienti, 
+distinguendo i prodotti più apprezzati da quelli che hanno ricevuto i voti peggiori.
+
+Ho fatto dei grafici a barre per rendere i risultati più immediati e 
+semplici da confrontare. In particolare, il grafico delle vendite per area 
+geografica ci permette di osservare quali zone registrano i volumi complessivi 
+maggiori e di valutare se determinate aree rappresentino opportunità commerciali più interessanti per l'azienda.
+
+Dai risultati emerge l'importanza di considerare ogni prodotto in modo diverso
+senza basarsi soltanto sulle vendite o sulle valutazioni prese singolarmente. 
+
+Una caramella molto venduta non è necessariamente quella più apprezzata
+così come un prodotto con poche vendite non è automaticamente poco redditizio
+Incrociare questi indicatori può aiutarci a individuare prodotti con potenziale
+ancora da sviluppare e altri che potrebbero richiedere una revisione della strategia commerciale.
+
+Le caramelle che registrano contemporaneamente poche vendite e 
+valutazioni basse meritano sicuramente un approfondimento
+perchè potrebbero contribuire poco ai risultati aziendali.
+
+Per stabilire se rappresentino una perdita effettiva, però, 
+sarebbe necessario confrontare anche prezzo di vendita, costo unitario e 
+spese di marketing, così da valutare il margine economico di ciascun prodotto.
+
+In conclusione, questo lavoro ci ha permesso di passare da due archivi 
+separati a un insieme di dati più completo, individuando differenze tra le fonti e 
+ottenendo una prima panoramica delle prestazioni commerciali. 
+
+I risultati costituiscono una base utile per approfondire il rapporto tra vendite
+gradimento dei clienti e distribuzione geografica, con l'obiettivo di supportare 
+decisioni aziendali più consapevoli e basate sui dati.
