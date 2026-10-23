@@ -9,7 +9,6 @@ print(df1.tail()) #verificato ultimi 5
 
 df1.info() #info relazione: questo dataset contiene 85 caramelle con 13 variabili diverse, info non mi segnala valori mancanti in queste colonne
 
-
 print(df1.shape) #vediamo un po' le dimensioni
 
 print(df1.isnull().sum()) #is null controlliamo tutte le celle e restituisce true se è mancante false se è pieno, infatti tutti 0 per ora, sum somma quelli che ci sono in ogni colonna
