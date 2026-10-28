@@ -33,7 +33,13 @@ File_valorizzato_da_open.close()
 
 # w crea il file, o modifica quello esistente
 # w potrei anche svuolare tutto mettendo, write vuoto
-# r,w,a,x (i più importanti)
+# r,w,a,x (i più importanti) r+ e w+ hanno più margine di errore, ottimo per i test, ma non lasciarli mai
+
+#sistema che permette in base alla scelta dell'utente di creare un file, modificare un file, leggere un file o svuotare un file
+#il sistema deve essere ripetibile e ad input
+#l'extra, permettere all'utente di decidere il nome del file
+
+
 
 
 

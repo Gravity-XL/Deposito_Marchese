@@ -47,6 +47,9 @@ step: Il passo tra un indice e l'altro. Se omesso, il valore predefinito è 1. "
 
 print("________SLICING________")
 
+
+
+
 # Slicing con passo
 print(arr[1:8:2]) # Output: [1 3 5 7]
 
@@ -57,5 +60,8 @@ print(arr[5:]) # Output: [5 6 7 8 9]
 # Utilizzare indici negativi
 print(arr[-5:]) # Output: [5 6 7 8 9]
 print(arr[:-5]) # Output: [0 1 2 3 4]
+
+
+
 
 

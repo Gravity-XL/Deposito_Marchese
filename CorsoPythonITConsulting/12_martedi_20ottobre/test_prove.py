@@ -23,7 +23,7 @@ print(random_arr)
 print(random_arr * 10)
 
 
- #ROUND_PER FARE L'ARROTONDAMENTO CON IL NUMERO PIù VICINO
+ #ROUND_PER FARE L'ARROTONDAMENTO CON IL NUMERO PIù VICINO, sarebbe un sacco carino utilizzarlo subito dopo la moltiplicazione x10, se ovviamente stiamo facendo delle medie e possiamo permettercelo
  
 arr = np.array([1,2,3,4,5])
 

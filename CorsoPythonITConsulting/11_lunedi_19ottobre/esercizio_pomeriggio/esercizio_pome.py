@@ -15,7 +15,7 @@ dato.
 import numpy as np
 
 # Creazione di un array
-arr = np.arange(10, 50)
+arr = np.arange(10, 50) #definizione dell'array
 print(arr)
 
 print(arr.dtype)
