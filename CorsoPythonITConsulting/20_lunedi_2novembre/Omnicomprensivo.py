@@ -65,3 +65,6 @@ print("Max:", X["worst fractal dimension"].max())
 # Questo può influenzare KNN, perché il modello calcola le distanze
 # tra i campioni e le features con valori più grandi possono incidere maggiormente.
 # Successivamente utilizzeremo lo scaling per rendere confrontabili le scale.
+
+
+#da finire con calma, c'è la correzione anche su git

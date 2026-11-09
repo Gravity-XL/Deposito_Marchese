@@ -1,0 +1,11 @@
+Relazione del 9 Novembre, ore 17.00 sul progetto Heart Vision.
+
+Heart Vision è un progetto basato sull'utilizzo del Machine Learning per la stima del rischio di eventi coronarici a 10 anni.
+Il sistema utilizza un dataset storico contenente 4.240 record, impiegato come base per l'addestramento del modello.
+È stato realizzato un questionario tramite Google Forms per raccogliere le informazioni degli utenti.
+Le risposte vengono esportate in formato CSV e successivamente importate in Python attraverso la libreria Pandas.
+Attualmente il progetto si trova in fase di test per verificare la corretta acquisizione delle risposte restituite dal modulo.
+Stiamo lavorando alla conversione e all'allineamento dei valori raccolti con le colonne e i formati del DataFrame storico.
+L'obiettivo è eliminare le colonne superflue, uniformare i dati e garantire la compatibilità con le caratteristiche utilizzate dal modello.
+Una volta completati i test, sarà possibile visualizzare l'esatto allineamento dei dati rispetto al DataFrame di partenza.
+
